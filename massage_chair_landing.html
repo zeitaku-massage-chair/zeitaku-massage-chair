@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeitaku Saiko 4D LI Flex Track Massage Chair</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 30px 20px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        
+        .card-title {
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .card-content {
+            padding: 25px;
+        }
+        
+        .icon {
+            font-size: 24px;
+        }
+        
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            background: #f0f0f0;
+        }
+        
+        .pdf-preview {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 2px dashed #667eea;
+        }
+        
+        .pdf-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        
+        .pdf-info {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .pdf-info p {
+            margin: 5px 0;
+            font-size: 13px;
+        }
+        
+        .btn-download {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .btn-download:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+        
+        .info-box {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            color: #333;
+        }
+        
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .info-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .info-box li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .info-box li:last-child {
+            border-bottom: none;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛋️ Zeitaku Saiko 4D LI Flex Track</h1>
+            <p>Massage Chair Demonstration & Manual</p>
+        </div>
+        
+        <div class="content">
+            <!-- Video Card -->
+            <div class="card">
+                <div class="card-title">
+                    <span class="icon">▶️</span>
+                    Product Video
+                </div>
+                <div class="card-content">
+                    <video controls width="100%">
+                        <source src="https://drive.google.com/uc?export=download&id=14yCZ71xP_8q-_9icDZxshDp6W_1Y4Qf-" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p style="margin-top: 15px; font-size: 13px; color: #666;">
+                        Watch the demonstration to see the massage chair in action
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Manual Card -->
+            <div class="card">
+                <div class="card-title">
+                    <span class="icon">📄</span>
+                    User Manual
+                </div>
+                <div class="card-content">
+                    <div class="pdf-preview">
+                        <div class="pdf-icon">📕</div>
+                        <div class="pdf-info">
+                            <p><strong>Zeitaku Saiko 4D LI Flex</strong></p>
+                            <p>Track Massage Chair Catalogue</p>
+                            <p style="font-size: 12px; color: #999;">7 pages • 17.7 MB</p>
+                        </div>
+                        <a href="https://drive.google.com/uc?export=download&id=1fNBuKc8jdEo1Q-D5B9IfXNlvcVcjwlqB" download class="btn-download">
+                            📥 Download Manual
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-box">
+            <h3>✨ Key Features</h3>
+            <ul>
+                <li>✓ 4D Massage Technology with Flex Track System</li>
+                <li>✓ Multiple Massage Modes and Intensity Levels</li>
+                <li>✓ Customizable Massage Programs</li>
+                <li>✓ Premium Comfort Design</li>
+                <li>✓ Easy-to-Use Control Panel</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Scan this QR code anytime to access product information</p>
+        </div>
+    </div>
+</body>
+</html>
